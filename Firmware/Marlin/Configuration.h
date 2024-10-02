@@ -136,7 +136,7 @@
 //#define BLUETOOTH
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Bon Clay"
+#define CUSTOM_MACHINE_NAME "CYAN"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -1790,7 +1790,7 @@
 /**
  * Filament Runout Sensors
  * Mechanical or opto endstops are used to check for the presence of filament.
- *
+ * 
  * IMPORTANT: Runout will only trigger if Marlin is aware that a print job is running.
  * Marlin knows a print job is running when:
  *  1. Running a print job from media started with M24.
