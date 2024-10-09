@@ -1,3 +1,5 @@
+00
+
 /**
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
@@ -2493,7 +2495,7 @@
  *
  * For volume init errors, enable #define SPI_SPEED SPI_HALF_SPEED
  */
-#define SDSUPPORT
+// #define SDSUPPORT
 
 /**
  * SD CARD: ENABLE CRC
