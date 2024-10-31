@@ -1651,9 +1651,9 @@
 
 // Disable axis steppers immediately when they're not being stepped.
 // WARNING: When motors turn off there is a chance of losing position accuracy!
-#define DISABLE_X
-#define DISABLE_Y
-#define DISABLE_Z
+//#define DISABLE_X
+//#define DISABLE_Y
+//#define DISABLE_Z
 //#define DISABLE_I
 //#define DISABLE_J
 //#define DISABLE_K
@@ -1673,7 +1673,7 @@
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
 #define INVERT_X_DIR false
-#define INVERT_Y_DIR true
+#define INVERT_Y_DIR false
 #define INVERT_Z_DIR false
 //#define INVERT_I_DIR false
 //#define INVERT_J_DIR false
